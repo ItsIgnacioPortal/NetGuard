@@ -44,7 +44,7 @@ Thanks @[pulser](https://github.com/pulser/)
 **(2)  Can I use another VPN application while using NetGuard**
 
 If the VPN application is using the [VPN service](http://developer.android.com/reference/android/net/VpnService.html),
-then no, because NetGuard needs to use this service. Android allows only one application at a time to use this service.
+then [you can use the work profile to achieve this](https://itsignacioportal.github.io/netguard-pdnsf-any-vpn-combo/). NetGuard needs to use the VPN service to work.
 
 NetGuard is a firewall application, so there is no intention to add VPN support.
 However, NetGuard supports a [SOCKS5 proxy](https://en.wikipedia.org/wiki/SOCKS) to chain VPN applications.
